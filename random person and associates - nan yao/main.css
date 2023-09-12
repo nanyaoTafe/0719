@@ -1,0 +1,246 @@
+/*remove all defaults*/
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+header,
+nav,
+article,
+section,
+footer,
+aside {
+  display: block;
+}
+
+/*centering website*/
+
+body {
+  height: px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  background-color: white;
+}
+header {
+  height: 160px;
+  width: 800px;
+  margin: auto;
+}
+.title {
+  width: 800px;
+  height: 160px;
+  margin: auto;
+}
+
+.title img {
+  width: 360px;
+  height: 160px;
+  margin-left: 220px;
+}
+/* BANNER - */
+.banner {
+  position: relative;
+  line-height: 0;
+}
+.banner__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: min(100%, 450px);
+  line-height: 1.4;
+}
+.overlay {
+  padding: 0.2em 1em;
+  background: rgba(193, 70, 70, 0.8);
+  color: white;
+}
+
+.overlay__title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.overlay__tag {
+  color: #fff;
+  font-family: var(--font-sans-serif);
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+/* 
+ * UTILITY CSS CODE - tools to make your life easier
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  Generic image resizer to make image "responsive".
+  Images should always fit into their container & stay in proportion - max-width and height.
+*/
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+}
+
+/* 
+ * CUSTOM CSS CODE - specific styling for THIS website
+ */
+
+/* * Site-wide styles - set up custom properties (CSS variables) */
+:root {
+  --font-serif: Georgia, "Times New Roman", Times, serif;
+  --font-sans-serif: Arial, Helvetica, sans-serif;
+  --brand: #950101;
+  --brand-light: #d53131;
+  --primary: #333;
+  --primary-light: #666;
+  --primary-line: #aaa;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = ~10px (based on 16px browser default) */
+}
+
+body {
+  color: var(--primary);
+  font-family: var(--font-sans-serif);
+  font-size: 1.6rem;
+  /* ~16px default font size (based on 1rem = 10px) */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  color: var(--primary-light);
+  text-transform: uppercase;
+}
+
+/* for colour highlighted text */
+.brand {
+  color: var(--brand);
+}
+
+.site-wrapper {
+  width: clamp(360px, 95%, 800px);
+
+  margin: 0 auto;
+}
+
+section {
+  width: 800px;
+  height: 380px;
+  margin: auto;
+}
+.centerpart {
+  width: 800px;
+  height: 300px;
+  margin-top: 30px;
+}
+.heading img {
+  width: 800px;
+  height: 18px;
+  margin-top: 20px;
+}
+.random-person-office {
+  width: 500px;
+  height: ;
+}
+.random-person-office img {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+.division {
+  width: 15px;
+  height: ;
+  float: left;
+}
+.aboutUS {
+  width: 535px;
+
+  float: right;
+}
+
+.special {
+  width: 255px;
+  float: left;
+}
+.change1 {
+  width: 280px;
+  height: 30px;
+  float: right;
+  font: normal 15pt serif;
+  padding-right: 20px;
+}
+h1 {
+  padding-top: 10px;
+}
+
+.division3 {
+  padding-top: 30px;
+}
+.change2 {
+  float: left;
+  margin-top: 20px;
+}
+aside {
+  width: 800px;
+  height: 380px;
+  margin: auto;
+}
+.examples img {
+  width: 800px;
+  height: 18px;
+  margin-bottom: 20px;
+}
+.lists {
+  width: 800px;
+  height: 500px;
+  margin-left: 3px;
+}
+.firstexample img {
+  width: 262px;
+  float: left;
+}
+.connector1 {
+  width: 15px;
+  float: left;
+}
+.secondexample img {
+  width: 258px;
+  float: left;
+}
+.connector2 {
+  width: 15px;
+  float: left;
+}
+.thirdexample img {
+  width: 250px;
+  float: left;
+}
+footer {
+  width: 700px;
+  height: 30px;
+  margin: auto;
+}
+.copyright {
+  width: 700px;
+}
+.copyright img {
+  width: 650px;
+  height: 18px;
+}
